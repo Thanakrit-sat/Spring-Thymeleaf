@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @Controller
-public class AuthContorller {
+public class AuthController {
     @GetMapping("/login")
     public String loginView() {
         return "login";
